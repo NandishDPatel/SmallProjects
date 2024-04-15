@@ -1,0 +1,41 @@
+@media(max-width:500px){
+    .navigation{position: static;}
+    .navigation .company{width: 100%;margin: 0px;}
+    .navigation .submenu li{width: 100%;text-align: center;padding: 10px;margin:5px;}
+    .navigation .button{width: 100%;text-align: center;}
+
+    
+    .topContent{padding: 40px 10px;}
+    .topContent .leftside{width: 100%;text-align: center;}
+    .topContent .leftside h1{padding-bottom: 20px;}
+    .topContent .leftside h3{padding-bottom: 20px;}
+    .topContent .buttons{padding: 5px;text-align: center;}
+    .topContent .buttons .btn{margin: 0px 5px;}
+    .topContent  .rightside{width: 100%;}
+
+    .templets{width: 100%;padding: 20px;}
+    .templets h1{padding: 10px;font-size: 20px;}
+    .templets .row .tmp{width: 100%;}
+
+    .courseLayout .layouts .lyt{width: 100%;}
+    .courseLayout h3{font-size: 20px;}
+    .courseLayout h2{font-size: 25px;}
+
+    .features h3{margin-bottom: 20px;}
+    .features .stickers .row{padding: 0px 20px;}
+    .features .stickers .row .item{width: 50%;}
+    .features .stickers .row .item .image{padding: 20px 50px;height: 80%;}
+    .features .stickers .row .item h4{line-height: 20px;}
+
+    .innerPages h3 {font-size: 20px;padding: 30px 0px 0px 10px;}
+    .innerPages h2{font-size: 25px;padding: 0px;margin: 10px;}
+    .innerPages .slider .photo{width: 50%;}
+
+    .questions .content .que{width: 90%;font-size: 10px;}
+
+    .footer .left{display: none;}
+    .footer .middle{width: 100%;}
+    .footer .middle h1{font-size: 20px;}
+    .footer .middle .buttons .btn{margin:0px;margin: 50px 0px 100px 10px;padding: 10px;}
+    .footer .right{display: none;}
+}
