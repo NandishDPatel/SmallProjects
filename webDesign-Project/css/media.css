@@ -1,0 +1,25 @@
+@media(max-width:730px){
+
+    .top{padding: 1px;}
+
+    .searchbar{text-align: center;padding: 10px;}
+    .searchbar .part1{margin: auto;}
+    .searchbar .part1 .cName::before{display: none;}
+    .searchbar .part1 .cName::after{display: none;}
+    /* .searchbar .part2{width: 100%;} */
+    .searchbar .part2 .search {padding:5px;justify-content: center;}
+    .searchbar .part2 .options{margin-top: 10px;padding-right: 20px;} 
+    .searchbar .part2 .options li{width: 60%;margin-bottom: 5px;}
+    
+    .content1 .left{width: 100%;}
+    .content1 .right{width:100%;padding: 30px;}
+    .content1 .floating{bottom: 30px;right: 20px;}
+
+    .content2 .left{width: 100%;padding: 10px 50px;}    
+    .content2 .right{width: 100%;padding: 10px 50px;}
+
+    .footer{padding: 5px;}
+    .footer .line1 li{padding: 0px;}
+    .footer .line2 li{display: none;}
+    .footer .line3{padding-bottom: 5px;}
+}
