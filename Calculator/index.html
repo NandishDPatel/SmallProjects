@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator in Iphone</title>
+</head>
+<body>
+    <div class="mobile">
+        <div class="toppart">
+            <div class="display">
+                <input type="text" value="0" id="inp">
+            </div>
+        </div>
+        <div class="numbers">
+            <div class="row">
+                <input type="button" class="circle num" value="7">
+                <input type="button" class="circle num" value="8">
+                <input type="button" class="circle num" value="9">
+                <button class="circle hlt">*</button>
+            </div>
+            <div class="row">
+                <input type="button" class="circle num" value="4">
+                <input type="button" class="circle num" value="5">
+                <input type="button" class="circle num" value="6" >
+                <button class="circle hlt">-</button>
+            </div>
+            <div class="row">
+                <input type="button" value="1" class="circle num">
+                <input type="button" value="2" class="circle num">
+                <input type="button" value="3" class="circle num">
+                <button class="circle hlt">+</button>
+            </div>
+            <div class="row">
+                <button class="circle light allClear">AC</button>
+                <input type="button" class="circle num" value="0">
+                <input type="button" class="circle light equal" value="=">
+                <button class="circle hlt" id="divide">/</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>

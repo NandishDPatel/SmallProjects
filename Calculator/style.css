@@ -1,0 +1,63 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.mobile{
+    background: #000;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.mobile .toppart{
+    background: green;
+    padding-top: 40px;
+}
+.mobile .toppart .display{
+    /* background: pink; */
+    padding: 10px 20px;
+}
+.mobile .toppart .display input{
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    font-size: 20px;
+}
+.mobile .numbers{
+    background: yellow;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.mobile .numbers .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 2px solid;
+    margin: 10px;
+}
+.mobile .numbers .row .circle{
+    background: #505050;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px;
+}
+.mobile .numbers .row .circle:hover{
+    background: rgb(163, 159, 159);
+}
+.mobile .numbers .row .hlt{
+    background:  #FF9500;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+.mobile .numbers .row .hlt:hover{
+    background: rgb(232, 95, 45);
+}
+.mobile .numbers .row .light{
+    background: #D4D4D2;
+    color: #000;
+}
