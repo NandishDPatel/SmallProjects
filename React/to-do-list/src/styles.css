@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    text-align: center;
+    color: black;
+}
+.header h1{
+    color: black;
+    padding : 25px 0px;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.navbar{
+    box-shadow: 0px 0px 10px black;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+.navbar .btn{
+    color: white;
+    font-size: large;
+    padding: 5px 20px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    background: #0d6efd;
+}
+.navbar .btn:hover{
+    color: white;
+    background: black;
+}
+.navbar .btn1{
+    color: whitesmoke;
+}
+.navbar .btn2{
+    text-align: left;
+    background: grey;
+    color: white;
+    z-index: 2;
+}
+.navbar .btn2 option{
+    text-align: start;
+    padding: 10px 0x;
+    color: white;
+    background: black;
+}
+.newTask{
+    position: absolute;
+    background: rgb(149, 194, 184);
+    padding: 10px;
+    width: 40%;
+    z-index: 1;
+    top: 25%;
+    left: 30%;
+    border-radius: 10px;
+}
+.newTask .close{
+    background: grey;
+    padding-bottom: 2px;
+    line-height: 7px;
+    font-weight: 500;
+    color: white;
+    margin: 2px;
+    color: black;
+    margin: 0px 0px 0px 90%;
+}
+.newTask .close:hover{
+    background: red;
+    color: white;
+}
+.newTask .content{
+    padding: 10px;
+    text-align: start;
+}
+.newTask .content .title{
+    text-align: start;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.newTask .content .userInput .input{
+    margin: 10px 0px;
+    text-align: start;
+}
+.newTask .content .userInput .input{
+    text-align: start;
+}
+.newTask .content .userInput .inp1{
+    text-align: start;
+    padding: 10px 0px;
+}
+.newTask .content .userInput .inp1 input{
+    width: 100%;
+    text-align: start;
+    padding: 0px 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.newTask .content .userInput .inp2{
+    text-align: start;
+    padding: 10px 0px;
+}
+.newTask .content .userInput .inp2 select{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+.newTask .content .userInput .inp2 select{
+    text-align: start;
+}
+.newTask .content .bottom{
+    display: flex;
+}
+.newTask .content .bottom .btn{
+    margin-right: 10px;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+.displayTask ul{
+    margin: 0px;
+    padding: 0px;
+}
+.displayTask .box{
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    background: #ECEDF6;
+    padding: 10px;
+}
+.displayTask .box1{
+    display: flex;
+    justify-content: start;
+    
+}
+.displayTask .box1 .info{
+    text-align: start;
+    margin-left: 15px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.displayTask .box1 .info .heading{
+    text-align: start;
+}
+.displayTask .box1 .info .date{
+    font-size: 15px;
+    text-align: start;
+}
+.displayTask .box2{
+    margin: 10px;
+}
+.displayTask .box2 button{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+.displayTask .box2 button{
+    border-radius: 10px;
+}
+.displayTask .box2 button:hover{
+    background: white;
+}
