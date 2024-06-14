@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash, faEdit } from "@fortawesome/free-solid-svg-icons";
 
 const Task = ({ title, status, deleteTask, updateTask }) => {
-    const [isVisible, setIsVisible] = useState(true);
     const [isEditVisible, setIsEditVisible] = useState(false);
     const [createDate, setDate] = useState("");
     const [createTime, setTime] = useState("");
@@ -15,11 +14,7 @@ const Task = ({ title, status, deleteTask, updateTask }) => {
         setDate(currDate);
         setTime(currTime);
     }, []);
-
-    if (!isVisible) {
-        return null;
-    }
-
+    
     return (
         <div className="displayTask">
             <ul className="list">
