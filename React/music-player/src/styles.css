@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.songList {
+  width: 50%;
+  background-color: bisque;
+  margin: 10px auto;
+  border: 5px solid black;
+}
+.songList h1 {
+  background-color: lightblue;
+}
+.songList ul li {
+  text-decoration: "none";
+}
+.songList .list li {
+  font-size: 20px;
+  padding-left: 10px;
+}
+.device {
+  width: 30%;
+  background: #000000;
+  box-shadow: 0px 0px 50px skyblue inset;
+  margin: 10px auto;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.device .profileIcon {
+  border-radius: 50%;
+  box-shadow: 0px 0px 50px red;
+  height: 250px;
+  width: 250px;
+  background-color: skyblue;
+  margin: 5px auto;
+}
+.device .profileIcon img {
+  border-radius: 50%;
+}
+.device .songTitle {
+  margin: 10px auto;
+}
+.device .artistName {
+  margin: 10px auto;
+  color: bisque;
+}
+.device .timeline {
+  border-bottom: 5px solid darkcyan;
+}
+.device .buttons {
+  display: flex;
+  justify-content: space-evenly;
+  color: #ffffff;
+}
+.device .buttons .btn {
+  margin: 20px auto;
+  border: 2px solid white;
+  box-shadow: 0px 0px 15px red;
+  border-radius: 50%;
+  color: #ffffff;
+}
+.device .buttons .btn:hover {
+  color: green;
+  border: 2px solid green;
+}
+.device .buttons .check-square {
+  color: blue;
+}
