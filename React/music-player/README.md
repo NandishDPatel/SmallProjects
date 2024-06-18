@@ -1,8 +1,8 @@
 This is a mini project just to get an crisp and brief idea about usestate and useeffect hooks :)
 
 ### To Run the Project
-- After downloading all the files from the github run npm init to download the dependencies
-- Then run npm start
+- After downloading all the files from the github run **npm init** to download the dependencies
+- Then run **npm start**
 
 - Screenshots of the music player
 
